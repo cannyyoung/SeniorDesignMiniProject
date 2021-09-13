@@ -7,9 +7,15 @@ import { Button, Text, View, StyleSheet, Alert, AppRegistry, TouchableOpacity } 
 import { RNCamera } from 'react-native-camera';
 
 class FoodScannerApp extends Component {
+
+  state = {code: 1, picture: 2};
+
   onBarCodeRead(scanData){
-    console.warn(scanData.data);
+    this.setState({code: scanData.data});
+    console.warn(this.state.code);
   }
+
+
   render(){
     return(
     <View style={styles.MyStyle}>
@@ -21,7 +27,7 @@ class FoodScannerApp extends Component {
           />
           <View style={styles.MyButtonWin}>
             <TouchableOpacity onPress={this.takePictures.bind(this)} style={styles.MyButton}>
-                <Text style={{fontSize: 12}}>Read Code</Text>
+                <Text style={{fontSize: 12}}>Take Picture</Text>
             </TouchableOpacity>
           </View>
     </View>
@@ -32,6 +38,7 @@ class FoodScannerApp extends Component {
   const options = { quality: 0.5, base64: true };
   const data = await camera.takePictureAsync(options);
   console.log(data.uri);
+  this.setState({picture: data.uri});
   }
 }
 
