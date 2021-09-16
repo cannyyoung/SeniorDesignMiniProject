@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1021166143059",
+    "project_id": "seniordesignmini",
+    "storage_bucket": "seniordesignmini.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021166143059:android:c0def04901d720727668a6",
+        "android_client_info": {
+          "package_name": "com.foodscannerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021166143059-sh5c6koak650sadavct35c4mrqn5ljo9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfEEG6ovr1KnwvQBXhVFe_U90XOdImwzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021166143059-sh5c6koak650sadavct35c4mrqn5ljo9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

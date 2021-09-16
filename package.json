@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@react-native-community/cameraroll": "^4.0.4",
+    "@react-native-firebase/app": "^12.8.0",
     "fbjs": "^3.0.0",
     "react": "17.0.2",
     "react-native": "0.65.1",

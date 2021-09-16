@@ -13,6 +13,11 @@ import React, { Component } from 'react';
 import { Button, Text, View, StyleSheet, Alert, AppRegistry, TouchableOpacity, PermissionsAndroid, Platform } from 'react-native';
 import { RNCamera } from 'react-native-camera';
 import CameraRoll from "@react-native-community/cameraroll";
+import {
+GoogleSignin,
+GoogleSigninButton,
+statusCodes,
+} from 'react-native-google-signin';
 
 async function hasAndroidPermission() {
   const permission = PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE;
