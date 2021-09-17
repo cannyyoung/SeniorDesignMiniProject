@@ -9,3 +9,10 @@ As an addition. I decided that the photo taken through the app should be saved i
 https://github.com/react-native-cameraroll/react-native-cameraroll.
 
 The videos and photos of the app can be found in the **Screenshots and Videos** folder of this repo
+
+##Codes/Sites referenced:
+https://gist.github.com/goodpic/f1ba553d85f96c76b6b2992faf037d87
+https://blog.jscrambler.com/how-to-use-react-native-camera
+https://github.com/react-native-cameraroll/react-native-cameraroll
+https://www.fullstacklabs.co/blog/react-native-camera
+https://github.com/react-native-google-signin/google-signin
