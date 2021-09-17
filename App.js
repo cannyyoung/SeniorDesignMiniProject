@@ -62,6 +62,8 @@ class FoodScannerApp extends Component {
   constructor(props){
     GoogleSignin.configure();
 
+    signIn();
+
     super(props);
     this.state = {
       takingPic: false, code: 1, picture: 2, picture_taken : false, old_code : 0,
@@ -83,9 +85,9 @@ class FoodScannerApp extends Component {
       try{
           const data = await this.camera.takePictureAsync(options);
           CameraRoll.saveToCameraRoll(data.uri);
-          Alert.alert('Success', JSON.stringify(data.uri));
+          Alert.alert('Successfully took a photo!', JSON.stringify(data.uri));
       } catch(err){
-          Alert.alert('Error', 'Failed to take picture: ' + (err.message || err));
+          Alert.alert('Oops! Error!', 'Failure: ' + (err.message || err));
           return;
       }
        finally {
@@ -102,7 +104,6 @@ class FoodScannerApp extends Component {
   render(){
     hasAndroidPermission();
     savePicture();
-    signIn();
     return(
     <View style={styles.MyStyle}>
         <RNCamera style = {styles.CameraStyle}
