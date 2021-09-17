@@ -8,4 +8,4 @@ I have made my program read barcode automatically without taking a photo. The ma
 As an addition. I decided that the photo taken through the app should be saved in memory instead of cache. Hence, I have used the camera roll package in order to save my photos:
 https://github.com/react-native-cameraroll/react-native-cameraroll.
 
-The videos and photos of the app can be found in the screenshots and Videos folder of this repo
+The videos and photos of the app can be found in the **Screenshots and Videos** folder of this repo
