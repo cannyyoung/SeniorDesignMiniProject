@@ -12,7 +12,9 @@ https://github.com/react-native-cameraroll/react-native-cameraroll.
 The videos and photos of the app can be found in the **Screenshots and Videos** folder of this repo
 ### Backend End
 
-I have made an api that takes the barcode and uses the url and api key to search for the specific items and their nutrition label. ComponentDidMount() housed the fetch function and converting into a json file that is Javascript friendly to read proper values from the data. Render function reads the proper data from the object, item. In the end, the code was unable to properly read the data and output necessary value. alternative, methds such as axios and ohter compnents under the Compnents class but none were implemented successfully.
+I have made an api that takes the barcode and uses the url and api key to search for the specific items and their nutrition label. ComponentDidMount() housed the fetch function and converting into a json file that is Javascript friendly to read proper values from the data. Render function reads the proper data from the object, item. In the end, the code was unable to properly read the data and output necessary value. alternative, methds such as axios and ohter compnents under the Compnents class but none were implemented successfully. 
+
+The main App.js left the function frontend piece but the tests for the backend only are in the tests folder.
 
 
 
